@@ -17,8 +17,8 @@ def time_synchronized():
 def main():
     classes = 1  # exclude background
     weights_path = "./save_weights/best_model.pth"
-    img_path = "/kaggle/input/drive-digital-retinal-images-for-vessel-extraction/DRIVE/test/images/01_test.tif"
-    roi_mask_path = "/kaggle/input/drive-digital-retinal-images-for-vessel-extraction/DRIVE/test/mask/01_test_mask.gif"
+    img_path = "/kaggle/input/111111/DRIVE/test/images/01_test.tif"
+    roi_mask_path = "/kaggle/input/111111/DRIVE/test/mask/01_test_mask.gif"
     assert os.path.exists(weights_path), f"weights {weights_path} not found."
     assert os.path.exists(img_path), f"image {img_path} not found."
     assert os.path.exists(roi_mask_path), f"image {roi_mask_path} not found."
